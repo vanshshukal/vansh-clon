@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    font-family: arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image:url("amazon_logo.png")
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+
+}
+.add-second{
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+
+
+
+}
+span{
+    font-size: 0.7rem;
+    
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel p {
+    display: inline;
+    margin-left: 15px;
+
+}
+.panel_ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image:url("hero_image.jpg") ;
+    background-size: cover;
+    height: 350px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+
+}
+
+
+
+.box{
+    background-color: white;
+    height: 400px;
+    width: 20%;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    
+    
+}
+.box-img{
+    background-size: cover;
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right:1rem ;
+}
+.box-content p{
+    color: #007185;
+}
+footer {
+    margin-top: 15px;
+}
+.foot-panell{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85;
+    
+}
+.border:hover{
+    border: 2px solid orange;
+}
+
